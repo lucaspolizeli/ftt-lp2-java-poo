@@ -1,18 +1,24 @@
-import classes.Ladrao;
+import classes.Thief;
 import classes.Polician;
 
 public class Main {
     public static void main(String[] args){
         Polician p = new Polician();
-        Ladrao l = new Ladrao();
+        Thief l = new Thief();
 
-        p.setName("Moro");
-        l.setName("Lula");
+        p.setName("Marcão");
+        p.setPatente("General");
 
-        p.getName();
-        l.getName();
+        p.sayName();
+        p.getPatente();
+        p.askRg();
 
-        p.run();
+        l.setRg(561795585);
+        System.out.println(l.getRg());
+        l.setCrime("Homicidio");
+        l.getCrime();
+
         l.run();
+        p.run();
     }
 }

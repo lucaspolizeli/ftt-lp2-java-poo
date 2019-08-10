@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d76b765a-01ba-498f-bb5f-ca16519ca502" name="Default Changelist" comment="" />
+    <list default="true" id="119d254c-acb8-43dd-a99b-97b2472f0822" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/classes/Ladrao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/classes/Polician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftt-lpi2-abstract/classes/Polician.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Ladrao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Thief.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Polician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Polician.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FavoritesManager">
+    <favorites_list name="ftt-lpi2-abstract" />
   </component>
-  <component name="ProjectId" id="1PCAZ6znLucR7GrH5F58fXZfTOm" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PD7F2L3jqK1F7ezg90qVWZVPn6" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,17 +43,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ftt-lpi2-abstract" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d76b765a-01ba-498f-bb5f-ca16519ca502" name="Default Changelist" comment="" />
-      <created>1565367757091</created>
+      <changelist id="119d254c-acb8-43dd-a99b-97b2472f0822" name="Default Changelist" comment="" />
+      <created>1565396705418</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565367757091</updated>
+      <updated>1565396705418</updated>
+      <workItem from="1565396710890" duration="1586000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
