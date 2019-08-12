@@ -3,22 +3,19 @@ package classes;
 import classes.Person;
 
 public class Polician extends Person {
-    private String patente;
-
-    public void setPatente(String patente){
-        this.patente = patente;
+    @Override
+    public void Saudation(Person p) {
+        System.out.println(this.GetName() + ": Oi filho " + p.GetName() + ", meu nome é " + this.GetName() + " da PM.");
     }
 
-    public void getPatente(){
-        System.out.println("Eu sou " + patente + " da polícia");
-    }
-
-    public void askRg(){
-        System.out.println("Qual seu RG comédia? ");
+    @Override
+    public void SayRG() {
+        System.out.println(this.GetName() + ": Não obedeço ordens.");
     }
 
     @Override
     public void run() {
-        System.out.println("Correndo atrás de bandido safado!");
+        System.out.println(this.GetName() + ": PEDE PRA SAIR SAFADO, VOLTA AQUI. ");
+
     }
 }

@@ -1,26 +1,36 @@
 package classes;
 
 public abstract class Person {
-    private int id;
-    private int rg;
     private String name;
+    private int rg;
 
-    public void sayName() {
-        System.out.println("Olá, meu nome é: " + name);
+    public String GetName() {
+        return name;
     }
 
-    public abstract void run();
-
-    public int getRg(){
+    public int GetRg(){
         return rg;
     }
 
-    public void setRg(int rg){
-        this.rg = rg;
-    }
-
-    public void setName(String name){
+    public void SetName(String name){
         this.name = name;
     }
 
+    public void SetRG(int rg){
+        this.rg = rg;
+    }
+
+    public void AskRG(Person p){
+        System.out.println(this.GetName() + ": Qual seu RG "+ p.GetName() + "?");
+    }
+
+    public void SayRG(){
+        System.out.println(this.GetName() + ": Meu RG é: " + this.GetRg());
+    }
+
+    public void Saudation(Person p){
+        System.out.println(this.GetName() + ": Olá " + p.GetName() + ". Como vai? Eu sou o " + this.GetName() + ".");
+    }
+
+    public abstract void run();
 }
